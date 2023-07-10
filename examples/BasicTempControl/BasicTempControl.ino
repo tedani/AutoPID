@@ -23,7 +23,7 @@
 #define KI .0003
 #define KD 0
 
-double temperature, setPoint, outputVal;
+float temperature, setPoint, outputVal;
 
 OneWire oneWire(TEMP_PROBE_PIN);
 DallasTemperature temperatureSensors(&oneWire);
